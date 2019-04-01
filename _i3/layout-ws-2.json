@@ -1,0 +1,72 @@
+// vim:ts=4:sw=4:et
+{
+    "border": "pixel",
+    "current_border_width": 1,
+    "floating": "auto_off",
+    "geometry": {
+       "height": 973,
+       "width": 2560,
+       "x": 0,
+       "y": 107
+    },
+    "name": "layout-ws-2.json - Code - OSS",
+    "percent": 0.6,
+    "swallows": [
+       {
+       "class": "^code-oss$",
+       "instance": "^code-oss$"
+       }
+    ],
+    "type": "con"
+}
+
+{
+    // splitv split container with 2 children
+    "border": "pixel",
+    "floating": "auto_off",
+    "layout": "splitv",
+    "percent": 0.4,
+    "type": "con",
+    "nodes": [
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 362,
+               "width": 882,
+               "x": 0,
+               "y": 0
+            },
+            "name": "liuv@supernova:~",
+            "percent": 0.15,
+            "swallows": [
+               {
+               "class": "^URxvt$",
+               "instance": "^urxvt$"
+               }
+            ],
+            "type": "con"
+        },
+        {
+            "border": "pixel",
+            "current_border_width": 1,
+            "floating": "auto_off",
+            "geometry": {
+               "height": 997,
+               "width": 2560,
+               "x": 0,
+               "y": 83
+            },
+            "name": "i3 exec_always i3-msg on workspace hidden - Google Search - Chromium",
+            "percent": 0.85,
+            "swallows": [
+               {
+               "class": "^Chromium$"
+               }
+            ],
+            "type": "con"
+        }
+    ]
+}
+
